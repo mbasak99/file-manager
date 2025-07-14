@@ -1,4 +1,4 @@
-import { defineConfig } from "vite";
+import { defineConfig } from "rolldown-vite";
 import react from "@vitejs/plugin-react";
 
 // @ts-expect-error process is a nodejs global
