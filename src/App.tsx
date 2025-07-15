@@ -18,7 +18,7 @@ function App() {
 
   return (
     <main className="container">
-      <h1>Welcome to Tauri + React</h1>
+      <h1>File Manager</h1>
 
       <div className="row">
         <a href="https://vitejs.dev" target="_blank">
@@ -27,9 +27,11 @@ function App() {
         <a href="https://tauri.app" target="_blank">
           <img src="/tauri.svg" className="logo tauri" alt="Tauri logo" />
         </a>
-        {/* <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a> */}
+        {
+          <a href="https://reactjs.org" target="_blank">
+            <img src="/react.svg" className="logo react" alt="React logo" />
+          </a>
+        }
       </div>
       <p>Click on the Tauri, Vite, and React logos to learn more.</p>
 
